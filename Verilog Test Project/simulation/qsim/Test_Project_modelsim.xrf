@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/bzare/OneDrive/Documents/GitHub/myComp/Verilog Test Project/Test_Project.bdf
+source_file = 1, C:/Users/bzare/OneDrive/Documents/GitHub/myComp/Verilog Test Project/Verilog1.v
+source_file = 1, C:/Users/bzare/OneDrive/Documents/GitHub/myComp/Verilog Test Project/altpll0.qip
+source_file = 1, C:/Users/bzare/OneDrive/Documents/GitHub/myComp/Verilog Test Project/altpll0.v
+source_file = 1, C:/Users/bzare/OneDrive/Documents/GitHub/myComp/Verilog Test Project/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altpll.tdf
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/aglobal191.inc
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/stratix_pll.inc
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/stratixii_pll.inc
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/cycloneii_pll.inc
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/cbx.lst
+source_file = 1, C:/Users/bzare/OneDrive/Documents/GitHub/myComp/Verilog Test Project/db/altpll0_altpll.v
+design_name = Test_Project
+instance = comp, \CLK_10M~output , CLK_10M~output, Test_Project, 1
+instance = comp, \CLK_50M~input , CLK_50M~input, Test_Project, 1
+instance = comp, \inst|altpll_component|auto_generated|pll1 , inst|altpll_component|auto_generated|pll1, Test_Project, 1

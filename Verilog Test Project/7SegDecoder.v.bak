@@ -1,0 +1,5 @@
+//Decoder for seven segment display
+
+module 7SegDecoder (
+input [3:0] in
+output[

@@ -1,0 +1,19 @@
+
+module Stopwatch_CNTRL (
+input mode,
+input button,
+output reg enable
+);
+
+always @ (*)
+begin
+	if (mode == 0) enable <= button;
+	end
+end 
+
+always @ (posedge button)
+begin
+	if (mode == 1) enable <= !enable;
+end
+
+endmodule 
